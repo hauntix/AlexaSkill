@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +27,7 @@
   </component>
   <component name="ProjectId" id="1RZLj3LmT1k27VbiiiYa95wws1w" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -64,7 +68,7 @@
       <workItem from="1570488811284" duration="165000" />
       <workItem from="1570493694631" duration="416000" />
       <workItem from="1570567739971" duration="73000" />
-      <workItem from="1570568676327" duration="4418000" />
+      <workItem from="1570568676327" duration="4573000" />
     </task>
     <servers />
   </component>
