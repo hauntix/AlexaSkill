@@ -6,7 +6,7 @@
     - Windows: [download](http://apache.mirrors.ionfish.org/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.zip) 
         - extract the maven.zip files to C:/Program Files/Maven
         - then set up the environment variables
-        ### adding the environment variables
+        #### adding the environment variables
         1. Windows 10 - Search for **Environment Variables** then select **Edit the system environment variables**
         2. click the ** Environment Variables** button
         3. under **System Variables** click **New**
@@ -28,10 +28,10 @@
         // todo add image
         
 # Instructions
-- Create a new maven project in intellij, Go to File -> New -> Project and select Maven
-- click next and go through setting up your project name 
+1. Create a new maven project in intellij, Go to File -> New -> Project and select Maven
+2. click next and go through setting up your project name 
     - enter any package name and name for your project
-- Once your project is set up and created add the sdk to alexa sdk's to your pom.xml dependencies like so:
+3. Once your project is set up and created add the sdk to alexa sdk's to your pom.xml dependencies like so:
 ```
     <dependencies>
        <dependency>
@@ -51,15 +51,15 @@
        </dependency>
     </dependencies>
 ```
-- [example pom.xml]()
+- [example pom.xml](https://github.com/hauntix/AlexaSkill/blob/master/pom.xml)
 
-Alexa skills have two things that handle stuff in Alexa, One being handlers and the other a SteamHandler class that 
+4. Alexa skills have two things that handle stuff in Alexa, One being handlers and the other a SteamHandler class that 
 calls our handlers so we need to make two packages to hold these files like so:
 ```
     com.example.handlers
     com.main
 ```
-next you will want to make a new class inside your handler package and name it "**CancelandStopIntentHandler**" and add this
+5. make a new class inside your handler package and name it "**CancelandStopIntentHandler**" and add this
  block of code
 ```
     package com.example.handler;import java.util.Optional;
@@ -78,6 +78,32 @@ next you will want to make a new class inside your handler package and name it "
             return input.getResponseBuilder()
                     .withSpeech(speechText)
                     .withSimpleCard("HelloWorld", speechText)
+                    .build();
+        }
+    }
+```
+// TODO explain what this file does and what not
+
+6. Make a new class called "**HelpIntentHandler**" and add the following block of code:
+```
+    package com.example.handler;
+    import java.util.Optional;import com.amazon.ask.dispatcher.request.handler.HandlerInput;
+    import com.amazon.ask.dispatcher.request.handler.RequestHandler;
+    import static com.amazon.ask.request.Predicates.intentName;
+    import com.amazon.ask.model.Response;
+
+    public class HelpIntentHandler implements RequestHandler {
+     
+        public boolean canHandle(HandlerInput input) {
+            return input.matches(intentName("AMAZON.HelpIntent"));
+        }
+
+        public Optional<Response> handle(HandlerInput input) {
+            String speechText = "I am here to say Hello World to You";
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withSimpleCard("HelloWorld", speechText)
+                    .withReprompt(speechText)
                     .build();
         }
     }
