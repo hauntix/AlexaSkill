@@ -8,7 +8,7 @@
         - then set up the environment variables
         #### adding the environment variables
         1. Windows 10 - Search for **Environment Variables** then select **Edit the system environment variables**
-        ![alt text](https://raw.githubusercontent.com/hauntix/AlexaSkill/master/assets/images/environment_variables.png)
+        ![alt text](https://github.com/hauntix/AlexaSkill/raw/master/assets/images/adding_new_var.png)
         2. click the ** Environment Variables** button
         3. under **System Variables** click **New**
         4. in **Variable Name** type: `JAVA_HOME` 
