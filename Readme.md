@@ -8,19 +8,23 @@
         - then set up the environment variables
         #### adding the environment variables
         1. Windows 10 - Search for **Environment Variables** then select **Edit the system environment variables**
+            
             ![alt text](https://github.com/hauntix/AlexaSkill/raw/master/assets/images/environment_variables.png)
         2. click the ** Environment Variables** button
+            
             ![alt text](https://github.com/hauntix/AlexaSkill/raw/master/assets/images/environment_variables_1.png)
         3. under **System Variables** click **New**
         4. in **Variable Name** type: `JAVA_HOME` 
         5. in **Variable Value** type your jdk install path: `C:\Progra~1\Java\jdk1.8.0_221` ('Progra~1' replaces 
         'Program Files')
+            
             ![alt text](https://github.com/hauntix/AlexaSkill/raw/master/assets/images/adding_new_var.png)
         6. click ok
         7. Now to add Maven so repeat steps c - f but for **Variable Name** type `MAVEN_HOME` and for 
         **Variable value** type `C:\Progra~1\Maven\apache-maven-3.6.2`
         #### Now to add these vairables to our path
         9. click __Path__ found in system variables and then click edit
+            
             ![alt text](https://github.com/hauntix/AlexaSkill/raw/master/assets/images/environment_variable.png)
         10. Click new and type `%JAVA_HOME%\bin`
         11. Click new and type `%MAVEN_HOME%\bin`
