@@ -2,11 +2,7 @@ package com.main;
 import com.amazon.ask.Skill;
 import com.amazon.ask.SkillStreamHandler;
 import com.amazon.ask.Skills;
-import com.example.handlers.CancelandStopIntentHandler;
-import com.example.handlers.HelloWorldIntentHandler;
-import com.example.handlers.HelpIntentHandler;
-import com.example.handlers.LaunchRequestHandler;
-import com.example.handlers.SessionEndedRequestHandler;
+import com.example.handlers.*;
 
 public class HelloWorldStreamHandler extends SkillStreamHandler {
 
@@ -17,7 +13,9 @@ public class HelloWorldStreamHandler extends SkillStreamHandler {
 						new HelloWorldIntentHandler(),
 						new HelpIntentHandler(),
 						new LaunchRequestHandler(),
-						new SessionEndedRequestHandler())
+						new SessionEndedRequestHandler(),
+						new FallbackIntentHandler())
+				//             Replace this with your alexa skill id
 				.withSkillId("amzn1.ask.skill.f7bc29e0-58ad-4724-9ec2-c622424a11a3")
 				.build();
 	}

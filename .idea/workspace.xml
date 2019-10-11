@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="346a4b3d-d6c6-4fb5-bb96-eae16af6b8a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/adding_new_var.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/editing_path_var.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/env_var_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/environment_variables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/environmnet_variables_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/terminal_verification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/handlers/FallbackIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/handlers/FallbackIntentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/HelloWorldStreamHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/HelloWorldStreamHandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,6 +53,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,7 +91,16 @@
       <workItem from="1570488811284" duration="165000" />
       <workItem from="1570493694631" duration="416000" />
       <workItem from="1570567739971" duration="73000" />
-      <workItem from="1570568676327" duration="5869000" />
+      <workItem from="1570568676327" duration="6481000" />
+      <workItem from="1570585970533" duration="766000" />
+      <workItem from="1570624464027" duration="297000" />
+      <workItem from="1570628160078" duration="233000" />
+      <workItem from="1570662808594" duration="179000" />
+      <workItem from="1570666513331" duration="12000" />
+      <workItem from="1570678274492" duration="510000" />
+      <workItem from="1570759855581" duration="3855000" />
+      <workItem from="1570797818217" duration="572000" />
+      <workItem from="1570813368846" duration="3262000" />
     </task>
     <servers />
   </component>
@@ -84,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
