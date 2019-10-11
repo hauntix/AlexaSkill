@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="346a4b3d-d6c6-4fb5-bb96-eae16af6b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/adding_new_var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/editing_path_var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/env_var_new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/environment_variables.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/environmnet_variables_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/terminal_verification.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/handlers/FallbackIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/handlers/FallbackIntentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/HelloWorldStreamHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/HelloWorldStreamHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/handlers/FallbackIntentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/handlers/FallbackIntentHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/main/HelloWorldStreamHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/HelloWorldStreamHandler.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +66,68 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.MapDemo">
+    <configuration name="David" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.David" />
+      <module name="AlexaSkillTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Malcom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.Malcom" />
+      <module name="AlexaSkillTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.MapDemo" />
+      <module name="AlexaSkillTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Najae" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.Najae" />
+      <module name="AlexaSkillTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MapDemo" />
+        <item itemvalue="Application.David" />
+        <item itemvalue="Application.Malcom" />
+        <item itemvalue="Application.Najae" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -100,7 +154,7 @@
       <workItem from="1570678274492" duration="510000" />
       <workItem from="1570759855581" duration="3855000" />
       <workItem from="1570797818217" duration="572000" />
-      <workItem from="1570813368846" duration="3262000" />
+      <workItem from="1570813368846" duration="5976000" />
     </task>
     <servers />
   </component>

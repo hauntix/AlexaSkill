@@ -8,6 +8,7 @@
         - then set up the environment variables
         #### adding the environment variables
         1. Windows 10 - Search for **Environment Variables** then select **Edit the system environment variables**
+        ![alt text](http://url/to/img.png)
         2. click the ** Environment Variables** button
         3. under **System Variables** click **New**
         4. in **Variable Name** type: `JAVA_HOME` 
