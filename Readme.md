@@ -25,15 +25,16 @@
         #### Now to add these vairables to our path
         9. click __Path__ found in system variables and then click edit
             
-            ![alt text](https://github.com/hauntix/AlexaSkill/raw/master/assets/images/environment_variable.png)
+            ![alt text](https://github.com/hauntix/AlexaSkill/raw/master/assets/images/editing_path_var.png)
         10. Click new and type `%JAVA_HOME%\bin`
         11. Click new and type `%MAVEN_HOME%\bin`
         12. Click ok and then click ok again
         #### Verify that you added the paths correctly
-        1. open terminal and enter `java -version` output should look similar to this:
-        // todo add image
-        2. next enter `mvn -v` the output will look similar to this:
-        // todo add image
+        1. open terminal and enter `java -version`
+        2. next enter `mvn -v` 
+        - the output will look similar to this:
+        
+            ![alt text](https://github.com/hauntix/AlexaSkill/raw/master/assets/images/terminal_verification.png)
 - Have your Alexa skill id ready
     - to get your Amazon Skill Id, go to [Amazon Skill Kit Dashboard](https://developer.amazon.com/alexa/console/ask?). 
     Now create a new skill, you can name it whatever you want like "MyFirstAlexaSkill"
